@@ -12,11 +12,11 @@ const navbar = (
     </nav>
 )
 
-// const root = ReactDOM.createRoot(document.getElementById("root"))
-// root.render(navbar)
+const root = ReactDOM.createRoot(document.getElementById("root"))
+root.render(navbar)
 
-// ReactDOM.render(navbar, document.getElementById("root"))
-// ReactDOM.createRoot(document.getElementById("root")).render(navbar)
+ReactDOM.render(navbar, document.getElementById("root"))
+ReactDOM.createRoot(document.getElementById("root")).render(navbar)
 
 /**
 Challenge: find out what happens if we try to append JSX
@@ -32,7 +32,7 @@ to our div#root using .append() instead of ReactDOM
 
 // take navbar
 
-// document.getElementById("root").append(JSON.stringify(navbar))
+document.getElementById("root").append(JSON.stringify(navbar))
 
 /**
 Challenge: fix our code!
